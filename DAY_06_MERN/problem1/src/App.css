@@ -1,0 +1,76 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile {
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+.user-info p {
+  margin: 10px 0;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.edit-form textarea {
+  height: 100px;
+}
+
+.edit-mode,
+.view-mode {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.edit-mode {
+  background: linear-gradient(45deg, #ff6b6b, #ffbb78);
+  color: #fff;
+}
+
+.view-mode {
+  background: linear-gradient(45deg, #66a6ff, #89f0ae);
+  color: #fff;
+}
+
+.edit-mode:hover,
+.view-mode:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  .edit-form input,
+  .edit-form textarea {
+    width: 100%;
+  }
+}
