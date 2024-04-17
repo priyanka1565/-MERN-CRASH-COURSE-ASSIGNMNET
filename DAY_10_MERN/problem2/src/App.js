@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ContactList from './ContactList';
+import PostsList from './PostsList';
 
 function App() {
   return (
     <div className="App">
-      <ContactList/>
+      <PostsList/>
     </div>
   );
 }
