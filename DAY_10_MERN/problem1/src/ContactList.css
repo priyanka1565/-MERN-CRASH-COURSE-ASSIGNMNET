@@ -1,0 +1,42 @@
+.contact-list-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-item {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item span {
+    margin-right: 10px;
+}
+
+input[type='text'],
+input[type='email'],
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
